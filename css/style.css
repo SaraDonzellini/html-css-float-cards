@@ -22,9 +22,10 @@ h1{
 
 h2{
   font-size: 1rem;
+  vertical-align: middle;
 }
 
-p{
+p:first-child{
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -33,15 +34,19 @@ p{
 
 section img{
   height: 6rem;
+  vertical-align: middle;
 }
 
 section.float-left{
   float: left;
+}
+
+section.cards{
   color: white;
   box-shadow: 4px 4px 4px grey;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
   background-color: #0f0e17;
+  width: 300px;
+  margin: calc(100% / 35);
 }
 
 address a{
@@ -51,4 +56,9 @@ address a{
 div{
   width:60%;
   margin: 0 auto;
+}
+
+.contact{
+  display: inline-block;
+  vertical-align: middle;
 }
